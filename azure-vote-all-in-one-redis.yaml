@@ -56,8 +56,8 @@ spec:
       nodeSelector:
         "kubernetes.io/os": linux
       containers:
-      - name: azure-vote-front
-        image: mcr.microsoft.com/azuredocs/azure-vote-front:v1
+      - name:  azurevoteapp24
+        image: azurevoteapp24.azurecr.io/azuredocs/azurevoteapp24:v1
         ports:
         - containerPort: 80
         resources:
